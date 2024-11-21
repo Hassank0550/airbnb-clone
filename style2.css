@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+
+}
+
+.header {
+    background-color: aqua;
+    height: 28vh;
+
+}
+
+.navbar1 {
+    background-color: grey;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    background-color: orange;
+    height: 80px;
+    width: 434px;
+    padding: 20px 250px 20px 0px;
+}
+
+.menutab {
+    background-color: rgb(255, 94, 0);
+    height: 80px;
+    width: 434px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icontab {
+    background-color: orange;
+    height: 80px;
+    width: 434px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+}
+
+.icon3-main {
+    background-color: rgb(255, 153, 19);
+    display: flex;
+    align-items: center;
+
+}
+
+#menu-button-1 {
+    margin: 10px;
+    text-decoration: none;
+    color: #888888;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+#menu-button-1:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+    font-size: 25px;
+    transition: .5s;
+
+}
+
+#menu-button-2 {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+#menu-button-2:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: underline;
+    transition: .5s;
+
+}
+
+#slash {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+
+.icon1 {
+
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Airbnb-your-home-btn {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+    color: black;
+}
+
+#Airbnb-your-home-btn:hover {
+
+    border-radius: 100px;
+    background-color: #888888;
+    opacity: 0.5;
+    border-radius: 100px;
+    transition: .5s;
+}
+
+.icon2 {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.icon2:hover {
+    background-color: #6A6A6A;
+    border-radius: 100%;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.icon3-main {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 46px;
+    width: 80px;
+    padding: 5px 10px;
+    border: 1px solid #6A6A6A;
+    border-radius: 100px;
+}
+
+.icon3-main:hover {
+    box-shadow: 0px 1px 2px black;
+}
